@@ -542,7 +542,7 @@
 		}
 
 		// Background element
-		dom.background = createSingletonNode( dom.wrapper, 'div', 'backgrounds', null );
+		dom.background = createSingletonNode( dom.slides, 'div', 'backgrounds', null );
 
 		// Progress bar
 		dom.progress = createSingletonNode( dom.wrapper, 'div', 'progress', '<span></span>' );
