@@ -2127,7 +2127,7 @@
 			}, 1 );
 
 			// Move the background element back out
-			dom.wrapper.appendChild( dom.background );
+			dom.slides.appendChild( dom.background );
 
 			// Clean up changes made to slides
 			toArray( dom.wrapper.querySelectorAll( SLIDES_SELECTOR ) ).forEach( function( slide ) {
